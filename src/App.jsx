@@ -105,11 +105,11 @@ function Header() {
           {isAuthenticated ? (
             <>
               <span className="user-pill"><Icon>account_circle</Icon>{user.name}</span>
-              {user.role !== "Admin" && <NavLink to="/orders" className="auth-link" onClick={() => setOpen(false)}>Orders</NavLink>}
+              {user.role !== "Admin" && <NavLink to="/orders" className="auth-link orders-link" onClick={() => setOpen(false)}><Icon>receipt_long</Icon><span>Orders</span></NavLink>}
               {user.role === "Admin" && <NavLink to="/admin" className="auth-link dashboard-link" onClick={() => setOpen(false)}><Icon>dashboard</Icon><span>Dashboard</span></NavLink>}
             </>
           ) : (
-            <NavLink to="/login" className="auth-link" onClick={() => setOpen(false)}>Login</NavLink>
+            <NavLink to="/login" className="auth-link login-link" onClick={() => setOpen(false)}><Icon>login</Icon><span>Login</span></NavLink>
           )}
           {user?.role !== "Admin" && <NavLink to={isAuthenticated ? "/cart" : "/login"} state={!isAuthenticated ? { from: { pathname: "/cart" }, message: "Please sign in to view your shopping cart." } : undefined} className={notice ? "auth-link cart-link cart-bump" : "auth-link cart-link"} aria-label="Cart">
             <Icon>shopping_cart</Icon><span>Cart</span>{count > 0 && <span className="cart-count">{count}</span>}
