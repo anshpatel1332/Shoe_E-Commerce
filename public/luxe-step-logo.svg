@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="55 35 485 470" role="img" aria-labelledby="title desc">
+  <title id="title">Luxe Step logo</title>
+  <desc id="desc">A dark LS monogram with a purple S flourish and sneaker outline.</desc>
+  <defs>
+    <linearGradient id="letterDark" x1="92" y1="32" x2="246" y2="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a1d23"/>
+      <stop offset=".5" stop-color="#0b0e14"/>
+      <stop offset="1" stop-color="#05070b"/>
+    </linearGradient>
+    <linearGradient id="purpleSweep" x1="222" y1="58" x2="342" y2="365" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#11141c"/>
+      <stop offset=".38" stop-color="#171925"/>
+      <stop offset=".5" stop-color="#432075"/>
+      <stop offset=".76" stop-color="#7d25d9"/>
+      <stop offset="1" stop-color="#6615c8"/>
+    </linearGradient>
+    <filter id="softShadow" x="-18%" y="-18%" width="136%" height="136%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#000000" flood-opacity=".32"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <path fill="url(#letterDark)" stroke="#717783" stroke-width="1.5" d="M76 42c32 0 70 3 108 3s75-3 109-3c6 0 7 8 1 9-51 9-66 24-66 67v212c0 43 15 58 66 67 6 1 5 9-1 9-34 0-71-3-109-3s-76 3-108 3c-6 0-7-8-1-9 50-9 64-24 64-67V118c0-43-14-58-64-67-6-1-5-9 1-9z"/>
+    <path fill="url(#purpleSweep)" stroke="#717783" stroke-width="1.7" d="M308 61c39 0 76 8 109 25 18 9 27 15 27 21v91c0 5-7 6-9 2-30-50-72-131-150-131-54 0-92 28-92 74 0 50 51 72 109 98 67 30 137 67 137 151 0 75-60 129-154 129-45 0-88-8-127-24-15-6-22-12-22-20l-7-101c0-6 7-7 10-2 37 74 91 138 163 138 55 0 97-28 97-80 0-54-51-78-110-105-65-29-132-64-132-142 0-73 62-124 151-124z"/>
+    <path fill="#0c0f16" stroke="#737a85" stroke-width="3.5" d="M191 261c15-5 23 2 29 19 7 22 24 33 51 32 15-1 23-4 32-7 5-2 11-2 16 2 38 30 82 51 131 65 9 3 15 12 12 21-6 18-25 25-57 24-54-2-104-22-152-47-28-14-43-12-48 8-4 14-3 26 3 36 45 11 97 20 155 22 47 2 95-3 145-13 13-2 24 7 20 20-5 18-22 32-55 43-59 20-126 23-199 10-33-6-63-15-89-26-11-5-16-16-13-27l21-89c2-8 3-16 3-24-1-18-6-35-15-50-5-8-1-16 9-20z"/>
+    <path fill="#6b20c8" d="M204 345c61 24 121 34 181 30-39-8-76-23-113-45-24 9-47 14-68 15z" opacity=".82"/>
+    <path fill="none" stroke="#7a22d6" stroke-width="17" stroke-linecap="round" d="M195 383c67 25 136 34 207 25"/>
+    <path fill="none" stroke="#777f8a" stroke-width="6" stroke-linecap="round" d="M185 458c85 28 193 29 313 4"/>
+    <path fill="none" stroke="#11141c" stroke-width="12" stroke-linecap="round" d="M196 438c84 27 184 28 279 5"/>
+  </g>
+</svg>
